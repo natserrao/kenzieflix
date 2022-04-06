@@ -1,0 +1,151 @@
+body,
+section,
+article,
+main,
+aside,
+footer,
+img,
+nav,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+div,
+p,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 16px;
+    background-color: black;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subtitulo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 50px;
+
+}
+
+.container li {
+    width: 160px;
+}
+
+.container li img {
+    border-radius: 8px;
+}
+
+.avatar {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;   
+}
+
+.avatar:hover{
+    border: 1px solid white;
+    height: 160px;
+    width: 160px;
+}
+.bloco:hover p{
+    color: white;
+    font-weight: 600;
+}
+
+.avatar img{
+    transition: all 1s ease-in-out;
+    
+}
+.avatar img:hover {
+    transform: scale(1.4);
+    transition: 1s;
+    
+}
+
+p{
+    color: #9C9C9C;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.outro-perfil {
+    background-color: #1E1E20;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.iconify{
+    content: url('https://api.iconify.design/akar-icons/circle-plus.svg?color=%236f6f70&width=53.89&height=53.89');
+    margin-top:53px;
+    color: #6f6f70;
+    width: 53.89px;
+    height:53.89px;
+}
+.iconify:hover{
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 60px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
